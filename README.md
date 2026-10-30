@@ -30,7 +30,7 @@ Requirements: a DeepSeek Harness build with the filesystem skill provider (the d
 **Project scope** — only sessions whose workspace/project root is that directory (DSH looks for `<project>/.dsh/skills` and `<project>/.agents/skills`):
 
 ```powershell
-git clone https://github.com/<you>/dsh-academic-research-skills
+git clone https://github.com/modbusLV/dsh-academic-research-skills
 cd dsh-academic-research-skills
 powershell -ExecutionPolicy Bypass -File .\install.ps1 -ProjectRoot D:\papers\my-paper
 ```
